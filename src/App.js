@@ -23,7 +23,7 @@ function App() {
         <BootNav cartValues={[cartNum]}/>
         <div className="content">
           <Routes>
-            <Route exact path="/P2" element={<Home />}/>
+            <Route exact path="/P2Part3" element={<Home />}/>
             <Route path="/store" element={<Store />}/>
             <Route path="/store/:category" element={<Store />}/>
             <Route path="/location" element={<Location />}/>
